@@ -1,0 +1,28 @@
+package unitTests;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.jupiter.api.Test;
+
+import classes.StableAsset;
+
+class StableAssetTest {
+
+	@Test
+	void test() {
+		StableAsset asset = new StableAsset("Something", "SOME", 0.02);
+		
+		int amount = 2000;
+		double interest = Math.pow(1.02,10);
+		int expectedReturn = 2000 * (int)interest;
+		
+		System.out.println(amount);
+		System.out.println(interest);
+		System.out.println(expectedReturn);
+		
+	
+		
+	}
+
+}

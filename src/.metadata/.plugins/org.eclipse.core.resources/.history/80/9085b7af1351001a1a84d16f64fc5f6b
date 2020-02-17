@@ -1,0 +1,13 @@
+package classes;
+
+// High predictable rate of return.
+public class StableAsset extends Asset {
+
+	private double rateOfReturn;
+
+    public StableAsset(String assetName, String assetTag, double rateOfReturn){
+		super(assetName, assetTag);
+		this.rateOfReturn = rateOfReturn;
+	}
+
+}

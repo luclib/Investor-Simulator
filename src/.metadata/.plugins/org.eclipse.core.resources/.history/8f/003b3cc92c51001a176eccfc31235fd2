@@ -1,0 +1,24 @@
+package unitTests;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.jupiter.api.Test;
+
+import classes.StableAsset;
+
+class StableAssetTest {
+
+	@Test
+	void test() {
+		StableAsset asset = new StableAsset("Something", "SOME", 0.02);
+		
+		double s = 2000.0 * Math.pow(1.0 + asset.getRateOfReturn(), 10.0);	
+		
+		System.out.println(s);
+		
+		assertEquals(2001, s);
+		
+	}
+
+}

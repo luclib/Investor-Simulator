@@ -1,0 +1,21 @@
+package unitTests;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import classes.Asset;
+import classes.StableAsset;
+import classes.Stock;
+
+class AssetTest {
+
+	@Test
+	void test() {
+		Asset asset1 = new StableAsset("Cash", "CASH", 0);
+		Asset asset2 = new Stock("Apple", "APPL", 0.232066, 0.009271, 0.451528);
+		Asset asset3 = new Stock("Alibaba", "BABA", 0.1144187803, 0.2845702889);
+		
+	}
+
+}

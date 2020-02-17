@@ -1,0 +1,49 @@
+package classes;
+
+// Wildy variable rate of return connected to the
+// successes and failures of a company or companies.
+public class Stock extends Asset {
+
+	private float return5Yrs;
+	private float return1Yr;
+	private float return90Days;
+
+	// Getter and Setter methods for use in unit testing.
+	public float get5YrRate() 	  { return this.return5Yrs; }
+	public float get1YrRate() 	  { return this.return1Yr; }
+	public float get90DaysRate() { return this.return90Days; }
+	
+	// Default constructor.
+	public Stock(){
+		super();
+		this.return5Yrs = 0.0f;
+		this.return1Yr = 0.0f;
+		this.return90Days = 0.0f;
+	}
+
+	// Constructor for stock object with all three return types
+	public Stock(String assetName, String assetTag, float return5Yrs,
+				 float return1Yr, float return90Days)
+	{
+		super(assetName, assetTag);
+		this.return5Yrs = return5Yrs;
+		this.return1Yr = return1Yr;
+		this.return90Days = return90Days;
+	}
+
+	// Constructor for stock object with 1-year and 90-day returns.
+	public Stock(String assetName, String assetTag, float return1Yr,
+	float return90Days)
+	{
+		super(assetName, assetTag);
+		this.return1Yr = return1Yr;
+		this.return90Days = return90Days;
+	}
+	
+	@Override
+	public int Invest() {
+		
+		return 0;
+	}
+
+}

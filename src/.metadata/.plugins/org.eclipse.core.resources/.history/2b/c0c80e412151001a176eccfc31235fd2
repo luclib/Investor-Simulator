@@ -1,0 +1,20 @@
+package unitTests;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.jupiter.api.Test;
+
+import classes.StableAsset;
+
+class StableAssetTest {
+
+	@Test
+	void test() {
+		StableAsset asset = new StableAsset("Something", "SOME", 0.02);
+		
+		assertEquals(2011, asset.Invest(2000));
+		
+	}
+
+}

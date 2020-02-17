@@ -1,0 +1,17 @@
+INDEX VERSION 1.131+D:\lucli\source\repos\Eclipse\COP 5007\project-3-assets-luclib\src\.metadata\.plugins\org.eclipse.jdt.core
+2908128485.index
+2783856933.index
+293086072.index
+2214001430.index
+903100345.index
+2460443448.index
+1022310311.index
+1601388759.index
+3728484310.index
+3064366502.index
+2359050706.index
+2416531413.index
+2352702764.index
+570924252.index
+2665955367.index
+1248545562.index
